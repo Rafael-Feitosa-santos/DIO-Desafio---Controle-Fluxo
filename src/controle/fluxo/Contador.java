@@ -32,7 +32,7 @@ public class Contador {
 
         int contagem = parametroDois - parametroUm;
         for (int i = 1; i <= contagem; i++) {
-            System.out.println(String.format("Imprimindo o nº %d", i));
+            System.out.printf("Imprimindo o nº %d\n", i);
         }
     }
 }
